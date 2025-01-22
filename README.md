@@ -1,0 +1,2 @@
+## Memory Leak in React Component using setInterval
+This repository demonstrates a common mistake when using `setInterval` inside a React component's `useEffect` hook.  Failing to provide a cleanup function in `useEffect` leads to memory leaks as the interval continues even after the component unmounts. The solution showcases the correct way to use `setInterval` with a cleanup function to prevent these issues. 
